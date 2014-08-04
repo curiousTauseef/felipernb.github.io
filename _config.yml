@@ -1,0 +1,12 @@
+# Site settings
+title: Felipe Ribeiro
+email: felipernb@gmail.com
+description: "Brain dump and ideas stacktrace"
+baseurl: ""
+url: "http://blog.feliperibeiro.com"
+twitter_username: felipernb
+github_username:  felipernb
+
+# Build settings
+markdown: kramdown
+permalink: pretty
