@@ -9,7 +9,6 @@
       <meta name="description" content="{{page.excerpt | strip_html}}">
       <meta property="og:description" content="{{page.excerpt | strip_html}}">
       <meta property="article:author" content="https://www.facebook.com/felipernb" />
-
       <meta property="twitter:title" content="{{page.title}}">
     {% else %}
       <title>{{ site.title }}</title>
@@ -19,7 +18,6 @@
       <meta property="og:title" content="{{ site.title }}"/>
       <meta property="og:description" content="{{ site.description }}">
       <meta property="og:image" content="{{site.url}}/images/f.png">
-
       <meta property="twitter:title" content="{{site.title}}">
     {% endif %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -33,4 +31,6 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="Felipe Ribeiro" href="{{site.url}}/feed.xml">
     <link rel="author" href="https://plus.google.com/115362068810405278627" title="Felipe Ribeiro on Google+">
+    <link rel="icon" type="image/png" href="{{site.url}}/images/favicon.png">
+
 </head>
