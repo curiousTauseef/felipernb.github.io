@@ -1,12 +1,36 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if page.title %}
+      <title>{{ page.title }}</title>
+      <meta property="og:site_name" content="{{ page.title }}"/>
+      <meta property="og:title" content="{{ page.title }}"/>
+      <meta property="og:type" content="article"/>
+      <meta name="description" content="{{page.excerpt | strip_html}}">
+      <meta property="og:description" content="{{page.excerpt | strip_html}}">
+      <meta property="article:author" content="https://www.facebook.com/felipernb" />
 
+      <meta property="twitter:title" content="{{page.title}}">
+    {% else %}
+      <title>{{ site.title }}</title>
+      <meta name="description" content="{{ site.description }}">
+      <meta property="og:type" content="website"/>
+      <meta property="og:site_name" content="{{ site.title }}"/>
+      <meta property="og:title" content="{{ site.title }}"/>
+      <meta property="og:description" content="{{ site.description }}">
+      <meta property="og:image" content="{{site.url}}/images/f.png">
+
+      <meta property="twitter:title" content="{{site.title}}">
+    {% endif %}
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@felipernb">
+    <meta name="twitter:creator" content="@felipernb">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="viewport" content="width=device-width">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="Felipe Ribeiro" href="{{site.url}}/feed.xml">
+    <link rel="author" href="https://plus.google.com/115362068810405278627" title="Felipe Ribeiro on Google+">
 </head>
