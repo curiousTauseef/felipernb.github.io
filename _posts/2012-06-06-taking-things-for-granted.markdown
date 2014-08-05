@@ -25,9 +25,3 @@ You don't need to know the mechanics of your car to drive it, but you will be a 
 A high level of abstraction usually boosts programmers productivity, but there is a balance that needs to be measured. Treating programming languages, libraries and frameworks as black boxes won't really help you compare different tools and pick the best one for a given problem. Also, as a software **engineer** you're supposed to understand the _engineering_ of the software you're building and make the best decisions about it based on the analysis you do.
 
 Looking on the bright side we can think that there will always be people working with the nitty-gritties of Computer Science and providing abstractions that make programming accessible for the masses, giving more people the opportunity to code and build web sites with pictures of catz.
-
-_P.S._: This post reminded me this amazing, and not so related, video:
-
-{% youtube 8r1CZTLk-Gk %}
-
-_P.P.S._: I'm not old, I just like looking at things with a critical eye! :)
