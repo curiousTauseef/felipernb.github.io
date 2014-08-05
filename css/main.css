@@ -10,14 +10,13 @@ html, body { height: 100%; }
 
 body {
   font-family: Inconsolata, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  font-weight: 300;
   background-color: #fdfdfd;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat;
+  font-family: Roboto;
   font-size: 100%;
   font-weight: bold;
 }
@@ -54,11 +53,10 @@ a:visited { color: #205caa; }
 .site-title,
 .site-title:hover,
 .site-title:visited {
-  font-family: Montserrat;
+  font-family: Roboto;
   display: block;
   color: #333;
   font-size: 26px;
-  letter-spacing: -1px;
   float: left;
   line-height: 56px;
   position: relative;
@@ -75,7 +73,6 @@ a:visited { color: #205caa; }
 .site-nav .page-link {
   margin-left: 20px;
   color: #727272;
-  letter-spacing: -.5px;
 }
 
 /* Site footer */
@@ -86,9 +83,7 @@ a:visited { color: #205caa; }
 }
 
 .footer-heading {
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: -.5px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
@@ -123,7 +118,6 @@ a:visited { color: #205caa; }
 .site-footer li,
 .site-footer p {
   font-size: 15px;
-  letter-spacing: -.3px;
   color: #828282;
 }
 
@@ -156,9 +150,9 @@ a:visited { color: #205caa; }
 .posts li { margin-bottom: 30px; }
 
 .posts .post-link {
-  font-family: Montserrat;
+  font-family: Roboto;
+  font-weight: bold;
   font-size: 24px;
-  letter-spacing: -1px;
   line-height: 1;
 }
 
@@ -176,7 +170,6 @@ a:visited { color: #205caa; }
 
 .post-header h1 {
   font-size: 42px;
-  letter-spacing: -1.75px;
   line-height: 1;
   font-weight: bold;
 }
@@ -205,17 +198,14 @@ a:visited { color: #205caa; }
 
 .post-content h2 {
   font-size: 32px;
-  letter-spacing: -1.25px;
 }
 
 .post-content h3 {
   font-size: 26px;
-  letter-spacing: -1px;
 }
 
 .post-content h4 {
   font-size: 20px;
-  letter-spacing: -1px;
 }
 
 .post-content blockquote {
@@ -223,7 +213,6 @@ a:visited { color: #205caa; }
   padding-left: 20px;
   font-size: 18px;
   opacity: .6;
-  letter-spacing: -1px;
   font-style: italic;
   margin: 30px 0;
 }
@@ -252,6 +241,13 @@ a:visited { color: #205caa; }
   border: 0;
   padding-right: 0;
   padding-left: 0;
+}
+
+.post img, .post iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
 /* terminal */
