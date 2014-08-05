@@ -75,6 +75,26 @@ a:visited { color: #205caa; }
   color: #727272;
 }
 
+.site-nav ul {
+  display: inline;
+}
+
+.site-nav li {
+  display: inline;
+}
+
+.site-nav li a {
+  color: #727272; 
+}
+
+.site-nav li a:hover {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
 /* Site footer */
 
 .site-footer {
