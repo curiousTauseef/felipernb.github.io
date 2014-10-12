@@ -18,7 +18,7 @@ Academic background is great and I probably wouldn't be half the programmer I am
 
 I've been there, I used to know by heart pretty much every pattern from the Gang of Four and tried to use them whenever I had a chance. But one thing I've learned since I left the university and started coding in the **real world** is that the _right thing®_ to do is not always the winning choice. In my opinion, one major example of this _phenomenon_ is JavaScript: _With so many good languages around, how come a "**platypus**" language like JavaScript became the most popular and universal one?_ (I'm just going to leave this here for you to discuss in the comments, or for a future post :))
 
-![](/images/platypus.png)
+![](/images/platypus.jpg)
 
 But back to design patterns: _**they are examples of good and reusable solutions to recurring problems**_. That's a great thing to have, right? How could they possibly be evil?
 
