@@ -9,9 +9,9 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Inconsolata, Helvetica, Arial, sans-serif;
+  font-family: Cousine, Helvetica, Arial, sans-serif;
   font-size: 19px;
-  line-height: 1.5;
+  line-height: 1.6em;
   background-color: #fdfdfd;
 }
 
