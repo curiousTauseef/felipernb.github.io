@@ -9,9 +9,9 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Cousine, Helvetica, Arial, sans-serif;
+  font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 1.7em;
   background-color: #fdfdfd;
 }
 
